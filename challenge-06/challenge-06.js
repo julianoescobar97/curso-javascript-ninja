@@ -66,9 +66,29 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
     a frase:
     "Não temos o equivalente hexadecimal para [COR]."
 */
-// ?
+function convertToHex(cor) {
+   switch(cor) {
+     case 'red':
+       console.log('O hexadecimal para a cor ' + cor + ' é FF0000');
+       break;
+     case 'white':
+       console.log('O hexadecimal para a cor ' + cor + ' é FFFFFF');
+       break;
+     case 'black':
+       console.log('O hexadecimal para a cor ' + cor + ' é 000000');
+       break;
+     case 'blue':
+       console.log('O hexadecimal para a cor ' + cor + ' é 0000FF');
+       break;
+     case 'orange':
+       console.log('O hexadecimal para a cor ' + cor + ' é FFA500');
+       break;
+     default:
+       console.log('Não temos o equivalente hexadecimal para ' + cor + '.');
+   };
+};
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-// ?
+convertToHex('red');
