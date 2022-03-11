@@ -57,17 +57,17 @@ os livros.
 */
 function book(arg) {
     var obj = {
-        crepusculo: {
+        'crepusculo': {
             quantidadePaginas: 190,
             autor: 'Fulaninho',
             editora: 'Aquela'
         },
-        hp: {
+        'hp': {
             quantidadePaginas: 200,
             autor: 'JK',
             editora: 'Essa mesmo'
         },
-        substituto: {
+        'substituto': {
             quantidadePaginas: 336,
             autor: 'Brenna Yovanoff',
             editora: 'A mais braba'
