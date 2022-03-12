@@ -92,3 +92,10 @@ function convertToHex(cor) {
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
 convertToHex('red');
+convertToHex('green');
+convertToHex('blue');
+convertToHex('white');
+convertToHex('purple');
+convertToHex('silver');
+convertToHex('black');
+convertToHex('orange');
